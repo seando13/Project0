@@ -9,7 +9,4 @@ I used a combination of Vanilla JavaScript and CSS to bring this game to you. Th
 game has been developed to be a two-person game. You can see a screen shot of the
 'Welcome Page' and the following page is that of the 'Game Board.'
 
-
-![Welcome Page](https://seando13.github.io/Project0/index.html)
-
-![Game Board]()
+Format: ![Welcome Page](https://seando13.github.io/Project0/index.html)
