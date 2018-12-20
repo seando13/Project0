@@ -48,13 +48,13 @@ let currentPlayer = 1;
 let playGame = function( box ) {
     if ( !box.innerHTML ) {
         if ( currentPlayer === 0 ) {
-            box.innerHTML = '<img src="img/o.png">';
+            box.innerHTML = '<img src="o.png">';
             playerO.push( box.id ); // pushes the ID of the box selected into the playerO array
             checkForWins( playerO );
 
             currentPlayer = 1;
         } else {
-            box.innerHTML = '<img src="img/x.png">';
+            box.innerHTML = '<img src="x.png">';
             playerX.push(box.id); // pushes the ID of the box selected in to the playerX array
             checkForWins( playerX );
             currentPlayer = 0;
