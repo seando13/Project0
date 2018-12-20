@@ -27,7 +27,7 @@ window.onload = function() { //window.onload fires later (or at the same time in
         let p2Name = document.getElementById( 'p2namefield' ).value;
         document.getElementById( 'gameboard' ).style.display = '';
         document.getElementById( 'name-entry' ).style.display = 'none';
-        document.getElementById( 'messageArea' ).innerHTML = "X = " + p1Name + " & O = " + p2Name + ".<br/> O goes first - Click a tile to begin!";
+        document.getElementById( 'messageArea' ).innerHTML = "O = " + p1Name + " & X = " + p2Name + ".<br/> O goes first - Click a tile to begin!";
         startGame ();
     };
 
