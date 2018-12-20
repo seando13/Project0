@@ -14,7 +14,7 @@ window.onload = function() { //window.onload fires later (or at the same time in
                     return;
                 }
                 playGame( this );
-                whosTurn( p1Name + " = X <br/>" + p2Name + " = O" ); // This tells you who is up to play.
+                whosTurn( p1Name + " = O <br/>" + p2Name + " = X" ); // This tells you who is up to play.
             });
 
         }
