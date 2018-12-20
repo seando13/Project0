@@ -8,4 +8,8 @@ the skills that we have obtained in the first two weeks of our class.
 I used a combination of Vanilla JavaScript and CSS to bring this game to you. The
 game has been developed to be a two-person game. You can see a screen shot of the
 'Welcome Page' and the following page is that of the 'Game Board.'
-![Welcome Page](/images/2018/12/Welcome Page.png)
+
+
+![Welcome Page](https://seando13.github.io/Project0/index.html)
+
+![Game Board]()
