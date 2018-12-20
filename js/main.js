@@ -27,7 +27,7 @@ window.onload = function() { //window.onload fires later (or at the same time in
         let p2Name = document.getElementById( 'p2namefield' ).value;
         document.getElementById( 'gameboard' ).style.display = '';
         document.getElementById( 'name-entry' ).style.display = 'none';
-        document.getElementById( "messageArea" ).innerHTML = "X = " + p1Name + " & O = " + p2Name + ".<br/> X goes first - Click a tile to begin!";
+        document.getElementById( 'messageArea' ).innerHTML = "X = " + p1Name + " & O = " + p2Name + ".<br/> X goes first - Click a tile to begin!";
         startGame ();
     };
 
@@ -43,7 +43,7 @@ let playerX = []; // All selection from playerX get populated here
 let playerO = []; // All selections from playerO get populated here
 
 
-let currentPlayer = 1;
+let currentPlayer = 0;
 
 let playGame = function( box ) {
     if ( !box.innerHTML ) {
@@ -71,10 +71,8 @@ const checkForWins = function(boxes) { // passing through boxes as a parameter
         ['2', '5', '8'], // Winning vertically
         ['3', '6', '9'], // Winning vertically
         ['1', '5', '9'], // Winning diagonally
-        ['3', '5', '7'] // Winning diagonally
+        ['3', '5', '7'], // Winning diagonally
     ];
-
-    // var winMessages;
 
     for ( var i = 0; i < winningCombos.length; i++ ) { //  -1 refers to a box that has not yet been played yet by either player.
         let currentWin = winningCombos[i];
@@ -95,3 +93,14 @@ const checkForWins = function(boxes) { // passing through boxes as a parameter
         alert( "Cat's Game - Try Again." );
     }
 };
+
+// const resetGame = function {
+//   if (playerX winner = true ||
+//       playerY winner = true ||
+//       playerX.length + playerO.length === 9)
+// };
+//
+//
+//
+// resetGame();
+// document.querySelector("input").addEventListener("click", resetGame)

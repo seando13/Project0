@@ -1,20 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Bubblegum+Sans');
+
  body {
      background-color: lightblue;
      font-family: 'Bubblegum Sans', cursive;
      font-size: 1.5em;
 }
+
  #gameboard {
      width: 100%;
      margin: 0 auto;
      max-width: 1000px;
 }
+
  .row {
      height: 100px;
      width: 100%;
      display: inline-block;
      text-align: center;
 }
+
  .box {
      max-width: 100px;
      width: 300px;
@@ -26,20 +30,24 @@
      margin: 0 auto;
      box-sizing: border-box;
 }
+
  img {
      margin: 0 auto;
 }
+
  h1 {
      color: white;
      text-align: center;
      font-size: 4em;
      text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
+
  h3 {
      text-align: center;
      color: black;
      font-weight: bold;
 }
+
  .welcome {
      text-align: center;
      font-size: 1em;
@@ -48,18 +56,21 @@
      margin: 0 auto;
      text-align: justify;
 }
+
  .submit {
      border: 1px solid black;
      margin: 0 auto;
      font-size: .7em;
      background-color: white;
 }
+
  .submit:hover {
      border: 1px solid black;
      text-align: center;
      background-color: white;
      cursor: pointer;
 }
+
  .namefield {
      border: 1px solid black;
      text-align: center;
@@ -67,12 +78,14 @@
      margin: 0 auto;
      font-family: 'Bubblegum Sans', cursive;
 }
+
  #name-entry {
      text-align: center;
      font-weight: bold;
      color: black;
      margin: 0 auto;
 }
+
  #messageArea {
      text-align: center;
      margin-top: 10%;
@@ -80,6 +93,15 @@
      font-size: 2em;
      color: black;
 }
+
  p {
      color: black;
+}
+
+.click {
+    border: 1px solid black;
+    margin: 0 auto;
+    font-size: .7em;
+    background-color: white;
+    justify-content: center;
 }
