@@ -10,7 +10,7 @@ I used a combination of Vanilla JavaScript and CSS to bring this game to you. Yo
 Currently the game is in a playable state. However, I would like to add a reset button and a stretch goal of adding AI(Artificial Intelligence).
 
 ## Contact
-If you would like to contact me about this project I can be reached on github: @seando13. You can also follow me on <a href="https://twitter.com/seando49" target="_blank">Twitter</a> and also follow the progress of our coding class in Sydney at <a href="https://wordpress.com/view/wdi30.wordpress.com" target="_blank">WDI30-Sydney</a>
+If you would like to contact me about this project I can be reached on github: @seando13. You can also follow me on <a href="https://twitter.com/seando49" target="_blank">Twitter</a> and also follow the progress of our coding class in Sydney at <a href="https://wdi30.wordpress.com/blog/" target="_blank">WDI30-Sydney</a>
 
 ## Credits
 I would like to credit my teacher Joel for his assistance and patience with some troubleshooting that I had on this project. Additionally, I would like to also thank Linna our TA for the course and my fellow students for their help.
