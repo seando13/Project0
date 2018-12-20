@@ -93,14 +93,3 @@ const checkForWins = function(boxes) { // passing through boxes as a parameter
         alert( "Cat's Game - Try Again." );
     }
 };
-
-// const resetGame = function {
-//   if (playerX winner = true ||
-//       playerY winner = true ||
-//       playerX.length + playerO.length === 9)
-// };
-//
-//
-//
-// resetGame();
-// document.querySelector("input").addEventListener("click", resetGame)

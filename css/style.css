@@ -97,11 +97,3 @@
  p {
      color: black;
 }
-
-.click {
-    border: 1px solid black;
-    margin: 0 auto;
-    font-size: .7em;
-    background-color: white;
-    justify-content: center;
-}
